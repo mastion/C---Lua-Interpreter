@@ -14,7 +14,7 @@ LuaObject& LuaFloat::operator=(LuaObject& rhs)
 		this->setValue(dynamic_cast<LuaFloat*>(&rhs)->getValue());
 	}else
 	{
-		//nope, this shit is not a float
+		//nope, this is not a float
 			//error out?
 	}
 
@@ -45,7 +45,7 @@ LuaObject LuaFloat::operator+(LuaObject& rhs)
 		tFloat.setValue(temp);
 	}else
 	{
-		//nope, this shit is not a float
+		//nope, this is not a float
 			//error out?
 	}
 	return tFloat;
@@ -62,7 +62,7 @@ LuaObject LuaFloat::operator-(LuaObject & rhs)
 		tFloat.setValue(temp);
 	}else
 	{
-		//nope, this shit is not a float
+		//nope, this is not a float
 			//error out?
 	}
 	return tFloat;
@@ -79,7 +79,7 @@ LuaObject LuaFloat::operator/(LuaObject & rhs)
 		tFloat.setValue(temp);
 	}else
 	{
-		//nope, this shit is not a float
+		//nope, this is not a float
 			//error out?
 	}
 	return tFloat;
@@ -96,7 +96,7 @@ LuaObject LuaFloat::operator*(LuaObject & rhs)
 		tFloat.setValue(temp);
 	}else
 	{
-		//nope, this shit is not a float
+		//nope, this is not a float
 			//error out?
 	}
 	return tFloat;
